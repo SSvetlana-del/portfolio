@@ -1,0 +1,12 @@
+/* One caption system for every case screenshot. */
+.case-detail figure.case-screenshot{margin-top:24px;margin-bottom:0;padding:16px;background:#181823;border:1px solid #33333e;min-width:0}
+.case-detail figure.case-screenshot>.screenshot-title{display:block;margin:0 0 16px;padding:0;min-height:0;color:#fff;font-size:18px;font-weight:700;line-height:26px}
+.case-detail figure.case-screenshot>a{display:block}
+.case-detail figure.case-screenshot>figcaption.screenshot-caption{display:block;margin:14px 0 0;padding:0;min-height:0;height:auto;color:#aeb5bf;font-size:14px;font-weight:400;line-height:22px}
+.case-detail .screenshot-hint{margin:16px 0 0;color:#aeb5bf;font-size:13px;line-height:21px}
+.case-detail .journey-grid>figure.case-screenshot,.case-detail .onboarding-screens>figure.case-screenshot{margin-top:0}
+.case-detail .legacy-grid .legacy-tool{background:none;border:0;padding:0}
+.case-detail .legacy-tool figure.case-screenshot{margin-top:0}
+.case-detail .legacy-tool figure.case-screenshot+figure.case-screenshot{margin-top:24px}
+@media(max-width:600px){.case-detail figure.case-screenshot{padding:12px}.case-detail figure.case-screenshot>.screenshot-title{font-size:16px;line-height:24px;margin-bottom:12px}.case-detail figure.case-screenshot>figcaption.screenshot-caption{margin-top:12px;font-size:13px;line-height:21px}}
+.case-detail .legacy-tool .legacy-pair>figure.case-screenshot+figure.case-screenshot{margin-top:0}
